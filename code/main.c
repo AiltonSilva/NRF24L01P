@@ -98,7 +98,7 @@ void main(){
       output_high(CSN);
       
       
-      printf(lcd_putc, "\f%u,%u,%u,%u\n%X,%X,%X,%X" 
+      printf(lcd_putc, "\f%u,%u,%u,%u\n%X,%X,%X,%X", 
       RECEBE[0],RECEBE[1],RECEBE[2],RECEBE[3],a,b,c,d);
       
       ACK=envia_dados();
